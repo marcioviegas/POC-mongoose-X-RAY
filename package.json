@@ -1,0 +1,28 @@
+{
+  "name": "xray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "ENV=TEST jest",
+    "serve": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-xray-sdk": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "mongoose-xray": "^3.1.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "eslint": "^7.6.0",
+    "jest": "^26.2.2",
+    "node-fetch": "^2.6.0"
+  }
+}
